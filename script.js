@@ -61,7 +61,7 @@ function Star() {
 function setupStars() {
   screen = {
     w: window.innerWidth,
-    h: window.innerHeight,
+    h: window.innerHeight * 4, //change height of canvas
     c: [window.innerWidth * 0.5, window.innerHeight * 0.5],
   };
   window.cancelAnimationFrame(updateStars);
